@@ -1,0 +1,47 @@
+
+NetExpress Exception Handler - 2016/10/6  19:32:59
+C:\Program Files\Micro Focus\Net Express 5.1\Base\BIN\runw.exe caused an exception at address : 0x01C31B4F
+Exception type - EXCEPTION_ACCESS_VIOLATION on Write. Address 0x00000000
+
+Registers:
+
+	EAX 00000041	EBX 019F25E0
+	ECX 0012E668	EDX 00000000
+	DS  0023	ESI 01C329F8
+	ES  0023	EDI 00000000
+	FS  003B	GS  0000
+	CS  001B	EIP 01C31B4F
+	SS  0023	ESP 0012E66C	EBP 0012E82C
+	Flags 00010206
+
+Error occurred in : C:\Program Files\Micro Focus\Net Express 5.1\Base\BIN\classs.dll, loaded at 0x01C20000
+
+	CompanyName Micro Focus
+	FileDescription Single-thread Base Class Library.
+	FileVersion 2.2.42
+	LegalCopyright Copyright (C) 1984-2008 Micro Focus (IP) Limited.
+	OriginalFileName Classs.dll
+	ProductName Net Express 5.1
+	ProductVersion 5.100.0157
+
+COBOL call stack:
+
+	behavior	(obj program)
+	预定	(int program), loaded from C:\Users\Administrator\Desktop\租用汽车
+	租用汽车	(int program), loaded from C:\Users\Administrator\Desktop\租用汽车
+
+Run-time : C:\Program Files\Micro Focus\Net Express 5.1\Base\BIN\CBLRTSS.DLL, loaded at 0x60000000
+
+	CompanyName Micro Focus
+	FileDescription Micro Focus 32-bit RTS
+	FileVersion 15.11
+	LegalCopyright Copyright (C) 1984-2008 Micro Focus (IP) Limited.
+	OriginalFileName cblrtss.dll
+	ProductName Net Express 5.1
+	ProductVersion 5.100.0157
+
+OS Information:
+
+Windows NT 6.1 (Build 7601: Service Pack 1)
+CPU: Intel Pentium Model 60 step 3, 4 processors
+Available memory - 2097151 KB
